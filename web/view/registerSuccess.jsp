@@ -20,5 +20,6 @@
         <li>Name: ${customer.name} </li>
         <li>Email: ${customer.email} </li>
     </ul>
+    <p> <a href="index.jsp">go to home page</a> </p>
 </body>
 </html>
