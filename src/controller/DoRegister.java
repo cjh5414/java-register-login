@@ -24,7 +24,7 @@ public class DoRegister extends HttpServlet {
         String gender = request.getParameter("gender");
         String email = request.getParameter("email");
 
-        Customer customer = new Customer(id, name, password, gender, email);
+        Customer customer = new Customer(id, password, name, gender, email);
         CustomerService service = new CustomerService();
         service.registerCustomer(customer);
         request.setAttribute("customer", customer);
